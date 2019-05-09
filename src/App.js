@@ -2,6 +2,7 @@
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import SignIn from "./SignIn";
 
 class App extends Component {
   constructor(props) {
@@ -101,6 +102,7 @@ componentWillUnmount() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React LocalStorage</h1>
+          <SignIn/>
         </header>
         <div
           style={{
